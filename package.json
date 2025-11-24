@@ -1,0 +1,9 @@
+{
+  "name": "stars-center-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
