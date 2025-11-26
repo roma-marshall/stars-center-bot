@@ -11,7 +11,7 @@ const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 bot.onText(/\/start/, (msg) => {
   bot.sendMessage(
     msg.chat.id,
-    "Добро пожаловать в Stars Center! ⭐\n\n" +
+    "Добро пожаловать в Stars Center!\n\n" +
     "Этот бот предоставляет справочную информацию, профиль и базовые инструменты.",
     {
       reply_markup: {
